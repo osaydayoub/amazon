@@ -64,6 +64,35 @@ body{
     top: 2px;
     right:0px;
 }
+.list-of-categories {
+    list-style-type:'›';
+    margin: 8px;
+    overflow: hidden;
+    /* list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px; */
+}
+
+.list-of-categories li {
+    float: left;
+    line-height: 14px;
+  }
+
+.list-of-categories a{
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    color:#565959;
+    padding: 10px;
+}
+.list-of-categories a:hover{
+    text-decoration:underline;
+  
+}
 
 
 /* .sponsored-text:hover{
