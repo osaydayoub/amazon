@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: vw;
+    
+}
+.search-navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #0F1111;
+}
+.second-navbar{
+    height: 39px;
+    width: 100%;
+    background-color: #232F3E;
+}
+.third-navbar{
+    height: 33px;
+    width: 100%;
+    border-bottom:solid 0.666667px rgba(0, 0, 0, 0.1);
+}
+.ad-navbar{
+    position: relative;
+    display: flex;
+    height: 55px;
+    width: 100%;
+    background-color: #F6F7F8;
+    border-bottom:solid 1.3px rgb(229, 231, 235);
+    border-top:solid 0.666667px rgb(229, 231, 235);
+    border-right:solid 0.666667px rgb(229, 231, 235);
+    align-items: center;
+    justify-content: center;
+}
+.ad-navbar .ad-img{
+    height: 100%;
+}
+
+.main-container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.sponsored-text{
+    color: rgb(85, 85, 85);
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 1px 0px;
+    line-height: 20px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.sponsored-text-1{
+    position: absolute;
+    top: 2px;
+    right:0px;
+}
+
+
+/* .sponsored-text:hover{
+    
+    color: rgb(67, 67, 67);
+} */
+
+/* .ad-navbar::after{
+    position: absolute;
+    content: 'Sponsored<span><</span>';
+    color: rgb(85, 85, 85);
+    font-size: 11px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    text-decoration-style: solid ;
+    bottom:-15px;
+    right: 0;
+    font-weight: bold;
+
+} */
